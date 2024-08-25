@@ -1,0 +1,27 @@
+### PUT request to example server
+POST localhost:8080/task/update
+Content-Type: application/json
+
+{
+  "id": 1,
+  "title": "Матрицы",
+  "description": "Придумай новые матрицы, старые какие-то непонятные",
+  "priority": "MEDIUM",
+  "status": "IN_PROGRESS",
+  "author": {
+    "id": 1,
+    "role": "USER",
+    "email": "shrek@mail.ru",
+    "firstName": "Shrek",
+    "lastName": ""
+  },
+  "executor": {
+    "id": 4,
+    "role": "USER",
+    "email": "davinci@gmail.com",
+    "firstName": "Leonardo",
+    "lastName": "da Vinci"
+  }
+}
+
+###

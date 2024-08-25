@@ -1,0 +1,24 @@
+POST localhost:8080/task/create
+Content-Type: application/json
+
+{
+  "id": 11,
+  "title": "Радость жизнью",
+  "description": "Необходимо выйти и порадоваться жизни, посмотреть на солнце",
+  "priority": "HIGH",
+  "status": "IN_PROGRESS",
+  "author": {
+    "id": 1,
+    "role": "USER",
+    "email": "shrek@mail.ru",
+    "firstName": "Shrek",
+    "lastName": ""
+  },
+  "executor": {
+    "id": 4,
+    "role": "USER",
+    "email": "davinci@gmail.com",
+    "firstName": "Leonardo",
+    "lastName": "da Vinci"
+  }
+}
